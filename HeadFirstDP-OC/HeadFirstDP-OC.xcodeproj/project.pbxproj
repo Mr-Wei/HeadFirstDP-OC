@@ -14,6 +14,15 @@
 		B622A7E425B02BD0002E0DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B622A7E325B02BD0002E0DB7 /* Assets.xcassets */; };
 		B622A7E725B02BD0002E0DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B622A7E525B02BD0002E0DB7 /* LaunchScreen.storyboard */; };
 		B622A7EA25B02BD0002E0DB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A7E925B02BD0002E0DB7 /* main.m */; };
+		B622A7F525B02CA2002E0DB7 /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A7F425B02CA2002E0DB7 /* Duck.m */; };
+		B622A7FF25B03CEE002E0DB7 /* CanFly.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A7FE25B03CEE002E0DB7 /* CanFly.m */; };
+		B622A80425B04244002E0DB7 /* NoFly.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A80325B04244002E0DB7 /* NoFly.m */; };
+		B622A80825B04281002E0DB7 /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A80725B04281002E0DB7 /* Quack.m */; };
+		B622A80C25B042EC002E0DB7 /* Squeak.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A80B25B042EC002E0DB7 /* Squeak.m */; };
+		B622A81025B04330002E0DB7 /* Mute.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A80F25B04330002E0DB7 /* Mute.m */; };
+		B622A81925B04431002E0DB7 /* DuckA.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A81825B04431002E0DB7 /* DuckA.m */; };
+		B622A81D25B04455002E0DB7 /* DuckB.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A81C25B04455002E0DB7 /* DuckB.m */; };
+		B622A82125B0446D002E0DB7 /* DuckC.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A82025B0446D002E0DB7 /* DuckC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +38,26 @@
 		B622A7E625B02BD0002E0DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B622A7E825B02BD0002E0DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B622A7E925B02BD0002E0DB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B622A7F325B02CA2002E0DB7 /* Duck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
+		B622A7F425B02CA2002E0DB7 /* Duck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Duck.m; sourceTree = "<group>"; };
+		B622A7F825B032C9002E0DB7 /* QuackBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuackBehavior.h; sourceTree = "<group>"; };
+		B622A7F925B032F3002E0DB7 /* FlyBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyBehavior.h; sourceTree = "<group>"; };
+		B622A7FD25B03CEE002E0DB7 /* CanFly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanFly.h; sourceTree = "<group>"; };
+		B622A7FE25B03CEE002E0DB7 /* CanFly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanFly.m; sourceTree = "<group>"; };
+		B622A80225B04244002E0DB7 /* NoFly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoFly.h; sourceTree = "<group>"; };
+		B622A80325B04244002E0DB7 /* NoFly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoFly.m; sourceTree = "<group>"; };
+		B622A80625B04281002E0DB7 /* Quack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quack.h; sourceTree = "<group>"; };
+		B622A80725B04281002E0DB7 /* Quack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
+		B622A80A25B042EC002E0DB7 /* Squeak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Squeak.h; sourceTree = "<group>"; };
+		B622A80B25B042EC002E0DB7 /* Squeak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Squeak.m; sourceTree = "<group>"; };
+		B622A80E25B04330002E0DB7 /* Mute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mute.h; sourceTree = "<group>"; };
+		B622A80F25B04330002E0DB7 /* Mute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mute.m; sourceTree = "<group>"; };
+		B622A81725B04431002E0DB7 /* DuckA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuckA.h; sourceTree = "<group>"; };
+		B622A81825B04431002E0DB7 /* DuckA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuckA.m; sourceTree = "<group>"; };
+		B622A81B25B04455002E0DB7 /* DuckB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuckB.h; sourceTree = "<group>"; };
+		B622A81C25B04455002E0DB7 /* DuckB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuckB.m; sourceTree = "<group>"; };
+		B622A81F25B0446D002E0DB7 /* DuckC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuckC.h; sourceTree = "<group>"; };
+		B622A82025B0446D002E0DB7 /* DuckC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuckC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +90,7 @@
 		B622A7D625B02BCD002E0DB7 /* HeadFirstDP-OC */ = {
 			isa = PBXGroup;
 			children = (
+				B622A7F125B02C15002E0DB7 /* 策略模式 */,
 				B622A7D725B02BCD002E0DB7 /* AppDelegate.h */,
 				B622A7D825B02BCD002E0DB7 /* AppDelegate.m */,
 				B622A7DA25B02BCD002E0DB7 /* SceneDelegate.h */,
@@ -74,6 +104,57 @@
 				B622A7E925B02BD0002E0DB7 /* main.m */,
 			);
 			path = "HeadFirstDP-OC";
+			sourceTree = "<group>";
+		};
+		B622A7F125B02C15002E0DB7 /* 策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				B622A7F225B02C1E002E0DB7 /* 鸭子 */,
+			);
+			path = "策略模式";
+			sourceTree = "<group>";
+		};
+		B622A7F225B02C1E002E0DB7 /* 鸭子 */ = {
+			isa = PBXGroup;
+			children = (
+				B622A7FC25B03C96002E0DB7 /* extension */,
+				B622A7FA25B03446002E0DB7 /* Base */,
+				B622A81725B04431002E0DB7 /* DuckA.h */,
+				B622A81825B04431002E0DB7 /* DuckA.m */,
+				B622A81B25B04455002E0DB7 /* DuckB.h */,
+				B622A81C25B04455002E0DB7 /* DuckB.m */,
+				B622A81F25B0446D002E0DB7 /* DuckC.h */,
+				B622A82025B0446D002E0DB7 /* DuckC.m */,
+			);
+			path = "鸭子";
+			sourceTree = "<group>";
+		};
+		B622A7FA25B03446002E0DB7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B622A7F325B02CA2002E0DB7 /* Duck.h */,
+				B622A7F425B02CA2002E0DB7 /* Duck.m */,
+				B622A7F825B032C9002E0DB7 /* QuackBehavior.h */,
+				B622A7F925B032F3002E0DB7 /* FlyBehavior.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B622A7FC25B03C96002E0DB7 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				B622A7FD25B03CEE002E0DB7 /* CanFly.h */,
+				B622A7FE25B03CEE002E0DB7 /* CanFly.m */,
+				B622A80225B04244002E0DB7 /* NoFly.h */,
+				B622A80325B04244002E0DB7 /* NoFly.m */,
+				B622A80625B04281002E0DB7 /* Quack.h */,
+				B622A80725B04281002E0DB7 /* Quack.m */,
+				B622A80A25B042EC002E0DB7 /* Squeak.h */,
+				B622A80B25B042EC002E0DB7 /* Squeak.m */,
+				B622A80E25B04330002E0DB7 /* Mute.h */,
+				B622A80F25B04330002E0DB7 /* Mute.m */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,10 +226,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B622A81025B04330002E0DB7 /* Mute.m in Sources */,
+				B622A7F525B02CA2002E0DB7 /* Duck.m in Sources */,
 				B622A7DF25B02BCD002E0DB7 /* ViewController.m in Sources */,
+				B622A81D25B04455002E0DB7 /* DuckB.m in Sources */,
 				B622A7D925B02BCD002E0DB7 /* AppDelegate.m in Sources */,
 				B622A7EA25B02BD0002E0DB7 /* main.m in Sources */,
+				B622A80425B04244002E0DB7 /* NoFly.m in Sources */,
+				B622A7FF25B03CEE002E0DB7 /* CanFly.m in Sources */,
 				B622A7DC25B02BCD002E0DB7 /* SceneDelegate.m in Sources */,
+				B622A80C25B042EC002E0DB7 /* Squeak.m in Sources */,
+				B622A82125B0446D002E0DB7 /* DuckC.m in Sources */,
+				B622A80825B04281002E0DB7 /* Quack.m in Sources */,
+				B622A81925B04431002E0DB7 /* DuckA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
