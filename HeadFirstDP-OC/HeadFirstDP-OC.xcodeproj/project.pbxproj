@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B45B1AC6D476F834E04E3DD /* Pods_HeadFirstDP_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1065DEBDEB1ABA113A6F9675 /* Pods_HeadFirstDP_OC.framework */; };
 		B622A7D925B02BCD002E0DB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A7D825B02BCD002E0DB7 /* AppDelegate.m */; };
 		B622A7DC25B02BCD002E0DB7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A7DB25B02BCD002E0DB7 /* SceneDelegate.m */; };
 		B622A7DF25B02BCD002E0DB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A7DE25B02BCD002E0DB7 /* ViewController.m */; };
@@ -23,9 +24,14 @@
 		B622A81925B04431002E0DB7 /* DuckA.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A81825B04431002E0DB7 /* DuckA.m */; };
 		B622A81D25B04455002E0DB7 /* DuckB.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A81C25B04455002E0DB7 /* DuckB.m */; };
 		B622A82125B0446D002E0DB7 /* DuckC.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A82025B0446D002E0DB7 /* DuckC.m */; };
+		B63B24D925B1904900F1C2C0 /* DesignPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B24D825B1904900F1C2C0 /* DesignPattern.m */; };
+		B63B24DD25B1919100F1C2C0 /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B24DC25B1919100F1C2C0 /* StrategyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00B31395ECC73B5D579A6904 /* Pods-HeadFirstDP-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadFirstDP-OC.release.xcconfig"; path = "Target Support Files/Pods-HeadFirstDP-OC/Pods-HeadFirstDP-OC.release.xcconfig"; sourceTree = "<group>"; };
+		04EDDA62E572248FA8FB2AB0 /* Pods-HeadFirstDP-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadFirstDP-OC.debug.xcconfig"; path = "Target Support Files/Pods-HeadFirstDP-OC/Pods-HeadFirstDP-OC.debug.xcconfig"; sourceTree = "<group>"; };
+		1065DEBDEB1ABA113A6F9675 /* Pods_HeadFirstDP_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeadFirstDP_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B622A7D425B02BCD002E0DB7 /* HeadFirstDP-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeadFirstDP-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B622A7D725B02BCD002E0DB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B622A7D825B02BCD002E0DB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +64,11 @@
 		B622A81C25B04455002E0DB7 /* DuckB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuckB.m; sourceTree = "<group>"; };
 		B622A81F25B0446D002E0DB7 /* DuckC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuckC.h; sourceTree = "<group>"; };
 		B622A82025B0446D002E0DB7 /* DuckC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuckC.m; sourceTree = "<group>"; };
+		B622A82C25B13993002E0DB7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B63B24D725B1904900F1C2C0 /* DesignPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPattern.h; sourceTree = "<group>"; };
+		B63B24D825B1904900F1C2C0 /* DesignPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPattern.m; sourceTree = "<group>"; };
+		B63B24DB25B1919100F1C2C0 /* StrategyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyViewController.h; sourceTree = "<group>"; };
+		B63B24DC25B1919100F1C2C0 /* StrategyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,17 +76,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B45B1AC6D476F834E04E3DD /* Pods_HeadFirstDP_OC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B4CAA4E49BB46CE202A3627 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04EDDA62E572248FA8FB2AB0 /* Pods-HeadFirstDP-OC.debug.xcconfig */,
+				00B31395ECC73B5D579A6904 /* Pods-HeadFirstDP-OC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		51019E76481C21248C8E0E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1065DEBDEB1ABA113A6F9675 /* Pods_HeadFirstDP_OC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B622A7CB25B02BCD002E0DB7 = {
 			isa = PBXGroup;
 			children = (
 				B622A7D625B02BCD002E0DB7 /* HeadFirstDP-OC */,
 				B622A7D525B02BCD002E0DB7 /* Products */,
+				1B4CAA4E49BB46CE202A3627 /* Pods */,
+				51019E76481C21248C8E0E5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +128,14 @@
 				B622A7DB25B02BCD002E0DB7 /* SceneDelegate.m */,
 				B622A7DD25B02BCD002E0DB7 /* ViewController.h */,
 				B622A7DE25B02BCD002E0DB7 /* ViewController.m */,
+				B63B24D725B1904900F1C2C0 /* DesignPattern.h */,
+				B63B24D825B1904900F1C2C0 /* DesignPattern.m */,
 				B622A7E025B02BCD002E0DB7 /* Main.storyboard */,
 				B622A7E325B02BD0002E0DB7 /* Assets.xcassets */,
 				B622A7E525B02BD0002E0DB7 /* LaunchScreen.storyboard */,
 				B622A7E825B02BD0002E0DB7 /* Info.plist */,
 				B622A7E925B02BD0002E0DB7 /* main.m */,
+				B622A82C25B13993002E0DB7 /* PrefixHeader.pch */,
 			);
 			path = "HeadFirstDP-OC";
 			sourceTree = "<group>";
@@ -109,7 +143,10 @@
 		B622A7F125B02C15002E0DB7 /* 策略模式 */ = {
 			isa = PBXGroup;
 			children = (
+				B63B24DF25B194A600F1C2C0 /* RPG */,
 				B622A7F225B02C1E002E0DB7 /* 鸭子 */,
+				B63B24DB25B1919100F1C2C0 /* StrategyViewController.h */,
+				B63B24DC25B1919100F1C2C0 /* StrategyViewController.m */,
 			);
 			path = "策略模式";
 			sourceTree = "<group>";
@@ -157,6 +194,21 @@
 			path = extension;
 			sourceTree = "<group>";
 		};
+		B63B24DF25B194A600F1C2C0 /* RPG */ = {
+			isa = PBXGroup;
+			children = (
+				B63B24E025B1952000F1C2C0 /* Role */,
+			);
+			path = RPG;
+			sourceTree = "<group>";
+		};
+		B63B24E025B1952000F1C2C0 /* Role */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Role;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B622A7ED25B02BD0002E0DB7 /* Build configuration list for PBXNativeTarget "HeadFirstDP-OC" */;
 			buildPhases = (
+				A01F21B9175B1838F0FE187D /* [CP] Check Pods Manifest.lock */,
 				B622A7D025B02BCD002E0DB7 /* Sources */,
 				B622A7D125B02BCD002E0DB7 /* Frameworks */,
 				B622A7D225B02BCD002E0DB7 /* Resources */,
+				A4F6B812B31730D5E80787C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,6 +275,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A01F21B9175B1838F0FE187D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeadFirstDP-OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4F6B812B31730D5E80787C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeadFirstDP-OC/Pods-HeadFirstDP-OC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeadFirstDP-OC/Pods-HeadFirstDP-OC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeadFirstDP-OC/Pods-HeadFirstDP-OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B622A7D025B02BCD002E0DB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -230,6 +326,8 @@
 				B622A7F525B02CA2002E0DB7 /* Duck.m in Sources */,
 				B622A7DF25B02BCD002E0DB7 /* ViewController.m in Sources */,
 				B622A81D25B04455002E0DB7 /* DuckB.m in Sources */,
+				B63B24D925B1904900F1C2C0 /* DesignPattern.m in Sources */,
+				B63B24DD25B1919100F1C2C0 /* StrategyViewController.m in Sources */,
 				B622A7D925B02BCD002E0DB7 /* AppDelegate.m in Sources */,
 				B622A7EA25B02BD0002E0DB7 /* main.m in Sources */,
 				B622A80425B04244002E0DB7 /* NoFly.m in Sources */,
@@ -378,36 +476,48 @@
 		};
 		B622A7EE25B02BD0002E0DB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04EDDA62E572248FA8FB2AB0 /* Pods-HeadFirstDP-OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PFEVE4UYXY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HeadFirstDP-OC/PrefixHeader.pch";
 				INFOPLIST_FILE = "HeadFirstDP-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.leju.HeadFirstDP-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wei.HeadFirstDP-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		B622A7EF25B02BD0002E0DB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B31395ECC73B5D579A6904 /* Pods-HeadFirstDP-OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PFEVE4UYXY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HeadFirstDP-OC/PrefixHeader.pch";
 				INFOPLIST_FILE = "HeadFirstDP-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.leju.HeadFirstDP-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wei.HeadFirstDP-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
