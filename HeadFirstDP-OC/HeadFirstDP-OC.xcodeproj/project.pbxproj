@@ -26,6 +26,18 @@
 		B622A82125B0446D002E0DB7 /* DuckC.m in Sources */ = {isa = PBXBuildFile; fileRef = B622A82025B0446D002E0DB7 /* DuckC.m */; };
 		B63B24D925B1904900F1C2C0 /* DesignPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B24D825B1904900F1C2C0 /* DesignPattern.m */; };
 		B63B24DD25B1919100F1C2C0 /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B24DC25B1919100F1C2C0 /* StrategyViewController.m */; };
+		B63B24E325B6A89900F1C2C0 /* Role.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B24E225B6A89900F1C2C0 /* Role.m */; };
+		B63B24E825B6AA7200F1C2C0 /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B24E725B6AA7200F1C2C0 /* Weapon.m */; };
+		B63B24EE25B6AE0E00F1C2C0 /* Skill.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B24ED25B6AE0E00F1C2C0 /* Skill.m */; };
+		B63B24F725B6BB4E00F1C2C0 /* Sword.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B24F625B6BB4E00F1C2C0 /* Sword.m */; };
+		B63B24FF25B6BC4400F1C2C0 /* Spear.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B24FE25B6BC4400F1C2C0 /* Spear.m */; };
+		B63B250325B6BCD000F1C2C0 /* Charge.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B250225B6BCD000F1C2C0 /* Charge.m */; };
+		B63B250825B6BD9800F1C2C0 /* Wand.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B250725B6BD9800F1C2C0 /* Wand.m */; };
+		B63B250C25B6BE6E00F1C2C0 /* FireBall.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B250B25B6BE6E00F1C2C0 /* FireBall.m */; };
+		B63B251025B6BEBD00F1C2C0 /* Smite.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B250F25B6BEBD00F1C2C0 /* Smite.m */; };
+		B6FDF20825B6BFC400EA5152 /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF20725B6BFC400EA5152 /* Warrior.m */; };
+		B6FDF20C25B6BFDC00EA5152 /* Knight.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF20B25B6BFDC00EA5152 /* Knight.m */; };
+		B6FDF21025B6C01400EA5152 /* Sorcerer.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF20F25B6C01400EA5152 /* Sorcerer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +81,30 @@
 		B63B24D825B1904900F1C2C0 /* DesignPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPattern.m; sourceTree = "<group>"; };
 		B63B24DB25B1919100F1C2C0 /* StrategyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyViewController.h; sourceTree = "<group>"; };
 		B63B24DC25B1919100F1C2C0 /* StrategyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyViewController.m; sourceTree = "<group>"; };
+		B63B24E125B6A89900F1C2C0 /* Role.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Role.h; sourceTree = "<group>"; };
+		B63B24E225B6A89900F1C2C0 /* Role.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Role.m; sourceTree = "<group>"; };
+		B63B24E625B6AA7200F1C2C0 /* Weapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		B63B24E725B6AA7200F1C2C0 /* Weapon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		B63B24EC25B6AE0E00F1C2C0 /* Skill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Skill.h; sourceTree = "<group>"; };
+		B63B24ED25B6AE0E00F1C2C0 /* Skill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Skill.m; sourceTree = "<group>"; };
+		B63B24F525B6BB4E00F1C2C0 /* Sword.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sword.h; sourceTree = "<group>"; };
+		B63B24F625B6BB4E00F1C2C0 /* Sword.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sword.m; sourceTree = "<group>"; };
+		B63B24FD25B6BC4400F1C2C0 /* Spear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Spear.h; sourceTree = "<group>"; };
+		B63B24FE25B6BC4400F1C2C0 /* Spear.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Spear.m; sourceTree = "<group>"; };
+		B63B250125B6BCD000F1C2C0 /* Charge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Charge.h; sourceTree = "<group>"; };
+		B63B250225B6BCD000F1C2C0 /* Charge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Charge.m; sourceTree = "<group>"; };
+		B63B250625B6BD9800F1C2C0 /* Wand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wand.h; sourceTree = "<group>"; };
+		B63B250725B6BD9800F1C2C0 /* Wand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wand.m; sourceTree = "<group>"; };
+		B63B250A25B6BE6E00F1C2C0 /* FireBall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FireBall.h; sourceTree = "<group>"; };
+		B63B250B25B6BE6E00F1C2C0 /* FireBall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireBall.m; sourceTree = "<group>"; };
+		B63B250E25B6BEBD00F1C2C0 /* Smite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Smite.h; sourceTree = "<group>"; };
+		B63B250F25B6BEBD00F1C2C0 /* Smite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smite.m; sourceTree = "<group>"; };
+		B6FDF20625B6BFC400EA5152 /* Warrior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
+		B6FDF20725B6BFC400EA5152 /* Warrior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Warrior.m; sourceTree = "<group>"; };
+		B6FDF20A25B6BFDC00EA5152 /* Knight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Knight.h; sourceTree = "<group>"; };
+		B6FDF20B25B6BFDC00EA5152 /* Knight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Knight.m; sourceTree = "<group>"; };
+		B6FDF20E25B6C01400EA5152 /* Sorcerer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sorcerer.h; sourceTree = "<group>"; };
+		B6FDF20F25B6C01400EA5152 /* Sorcerer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sorcerer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +233,8 @@
 		B63B24DF25B194A600F1C2C0 /* RPG */ = {
 			isa = PBXGroup;
 			children = (
+				B63B24F225B6B13F00F1C2C0 /* Skill */,
+				B63B24F025B6B0DA00F1C2C0 /* Weapon */,
 				B63B24E025B1952000F1C2C0 /* Role */,
 			);
 			path = RPG;
@@ -205,8 +243,70 @@
 		B63B24E025B1952000F1C2C0 /* Role */ = {
 			isa = PBXGroup;
 			children = (
+				B63B24EB25B6AC4400F1C2C0 /* Base */,
+				B6FDF20625B6BFC400EA5152 /* Warrior.h */,
+				B6FDF20725B6BFC400EA5152 /* Warrior.m */,
+				B6FDF20A25B6BFDC00EA5152 /* Knight.h */,
+				B6FDF20B25B6BFDC00EA5152 /* Knight.m */,
+				B6FDF20E25B6C01400EA5152 /* Sorcerer.h */,
+				B6FDF20F25B6C01400EA5152 /* Sorcerer.m */,
 			);
 			path = Role;
+			sourceTree = "<group>";
+		};
+		B63B24EB25B6AC4400F1C2C0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B63B24E125B6A89900F1C2C0 /* Role.h */,
+				B63B24E225B6A89900F1C2C0 /* Role.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B63B24F025B6B0DA00F1C2C0 /* Weapon */ = {
+			isa = PBXGroup;
+			children = (
+				B63B24F125B6B12A00F1C2C0 /* Base */,
+				B63B24F525B6BB4E00F1C2C0 /* Sword.h */,
+				B63B24F625B6BB4E00F1C2C0 /* Sword.m */,
+				B63B24FD25B6BC4400F1C2C0 /* Spear.h */,
+				B63B24FE25B6BC4400F1C2C0 /* Spear.m */,
+				B63B250625B6BD9800F1C2C0 /* Wand.h */,
+				B63B250725B6BD9800F1C2C0 /* Wand.m */,
+			);
+			path = Weapon;
+			sourceTree = "<group>";
+		};
+		B63B24F125B6B12A00F1C2C0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B63B24E625B6AA7200F1C2C0 /* Weapon.h */,
+				B63B24E725B6AA7200F1C2C0 /* Weapon.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B63B24F225B6B13F00F1C2C0 /* Skill */ = {
+			isa = PBXGroup;
+			children = (
+				B63B24F325B6B14C00F1C2C0 /* Base */,
+				B63B250125B6BCD000F1C2C0 /* Charge.h */,
+				B63B250225B6BCD000F1C2C0 /* Charge.m */,
+				B63B250A25B6BE6E00F1C2C0 /* FireBall.h */,
+				B63B250B25B6BE6E00F1C2C0 /* FireBall.m */,
+				B63B250E25B6BEBD00F1C2C0 /* Smite.h */,
+				B63B250F25B6BEBD00F1C2C0 /* Smite.m */,
+			);
+			path = Skill;
+			sourceTree = "<group>";
+		};
+		B63B24F325B6B14C00F1C2C0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B63B24EC25B6AE0E00F1C2C0 /* Skill.h */,
+				B63B24ED25B6AE0E00F1C2C0 /* Skill.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,15 +425,27 @@
 				B622A81025B04330002E0DB7 /* Mute.m in Sources */,
 				B622A7F525B02CA2002E0DB7 /* Duck.m in Sources */,
 				B622A7DF25B02BCD002E0DB7 /* ViewController.m in Sources */,
+				B6FDF21025B6C01400EA5152 /* Sorcerer.m in Sources */,
+				B63B250825B6BD9800F1C2C0 /* Wand.m in Sources */,
+				B63B24E325B6A89900F1C2C0 /* Role.m in Sources */,
 				B622A81D25B04455002E0DB7 /* DuckB.m in Sources */,
+				B6FDF20C25B6BFDC00EA5152 /* Knight.m in Sources */,
 				B63B24D925B1904900F1C2C0 /* DesignPattern.m in Sources */,
 				B63B24DD25B1919100F1C2C0 /* StrategyViewController.m in Sources */,
+				B63B24F725B6BB4E00F1C2C0 /* Sword.m in Sources */,
 				B622A7D925B02BCD002E0DB7 /* AppDelegate.m in Sources */,
+				B63B250325B6BCD000F1C2C0 /* Charge.m in Sources */,
+				B63B24FF25B6BC4400F1C2C0 /* Spear.m in Sources */,
+				B6FDF20825B6BFC400EA5152 /* Warrior.m in Sources */,
+				B63B251025B6BEBD00F1C2C0 /* Smite.m in Sources */,
 				B622A7EA25B02BD0002E0DB7 /* main.m in Sources */,
+				B63B24EE25B6AE0E00F1C2C0 /* Skill.m in Sources */,
 				B622A80425B04244002E0DB7 /* NoFly.m in Sources */,
+				B63B250C25B6BE6E00F1C2C0 /* FireBall.m in Sources */,
 				B622A7FF25B03CEE002E0DB7 /* CanFly.m in Sources */,
 				B622A7DC25B02BCD002E0DB7 /* SceneDelegate.m in Sources */,
 				B622A80C25B042EC002E0DB7 /* Squeak.m in Sources */,
+				B63B24E825B6AA7200F1C2C0 /* Weapon.m in Sources */,
 				B622A82125B0446D002E0DB7 /* DuckC.m in Sources */,
 				B622A80825B04281002E0DB7 /* Quack.m in Sources */,
 				B622A81925B04431002E0DB7 /* DuckA.m in Sources */,
