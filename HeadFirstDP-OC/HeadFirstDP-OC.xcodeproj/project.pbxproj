@@ -38,6 +38,10 @@
 		B6FDF20825B6BFC400EA5152 /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF20725B6BFC400EA5152 /* Warrior.m */; };
 		B6FDF20C25B6BFDC00EA5152 /* Knight.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF20B25B6BFDC00EA5152 /* Knight.m */; };
 		B6FDF21025B6C01400EA5152 /* Sorcerer.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF20F25B6C01400EA5152 /* Sorcerer.m */; };
+		B6FDF21525B7CEC900EA5152 /* EquipmentDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF21425B7CEC900EA5152 /* EquipmentDecorator.m */; };
+		B6FDF21925B7D26200EA5152 /* EquipmentArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF21825B7D26200EA5152 /* EquipmentArmor.m */; };
+		B6FDF21D25B7D35500EA5152 /* EquipmentOffHand.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF21C25B7D35500EA5152 /* EquipmentOffHand.m */; };
+		B6FDF22125B7D3D200EA5152 /* EquipmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF22025B7D3D200EA5152 /* EquipmentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +109,14 @@
 		B6FDF20B25B6BFDC00EA5152 /* Knight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Knight.m; sourceTree = "<group>"; };
 		B6FDF20E25B6C01400EA5152 /* Sorcerer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sorcerer.h; sourceTree = "<group>"; };
 		B6FDF20F25B6C01400EA5152 /* Sorcerer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sorcerer.m; sourceTree = "<group>"; };
+		B6FDF21325B7CEC900EA5152 /* EquipmentDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EquipmentDecorator.h; sourceTree = "<group>"; };
+		B6FDF21425B7CEC900EA5152 /* EquipmentDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EquipmentDecorator.m; sourceTree = "<group>"; };
+		B6FDF21725B7D26200EA5152 /* EquipmentArmor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EquipmentArmor.h; sourceTree = "<group>"; };
+		B6FDF21825B7D26200EA5152 /* EquipmentArmor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EquipmentArmor.m; sourceTree = "<group>"; };
+		B6FDF21B25B7D35500EA5152 /* EquipmentOffHand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EquipmentOffHand.h; sourceTree = "<group>"; };
+		B6FDF21C25B7D35500EA5152 /* EquipmentOffHand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EquipmentOffHand.m; sourceTree = "<group>"; };
+		B6FDF21F25B7D3D200EA5152 /* EquipmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EquipmentViewController.h; sourceTree = "<group>"; };
+		B6FDF22025B7D3D200EA5152 /* EquipmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EquipmentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +169,7 @@
 		B622A7D625B02BCD002E0DB7 /* HeadFirstDP-OC */ = {
 			isa = PBXGroup;
 			children = (
+				B6FDF21225B7CDF800EA5152 /* 装饰器模式 */,
 				B622A7F125B02C15002E0DB7 /* 策略模式 */,
 				B622A7D725B02BCD002E0DB7 /* AppDelegate.h */,
 				B622A7D825B02BCD002E0DB7 /* AppDelegate.m */,
@@ -309,6 +322,21 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		B6FDF21225B7CDF800EA5152 /* 装饰器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				B6FDF21325B7CEC900EA5152 /* EquipmentDecorator.h */,
+				B6FDF21425B7CEC900EA5152 /* EquipmentDecorator.m */,
+				B6FDF21725B7D26200EA5152 /* EquipmentArmor.h */,
+				B6FDF21825B7D26200EA5152 /* EquipmentArmor.m */,
+				B6FDF21B25B7D35500EA5152 /* EquipmentOffHand.h */,
+				B6FDF21C25B7D35500EA5152 /* EquipmentOffHand.m */,
+				B6FDF21F25B7D3D200EA5152 /* EquipmentViewController.h */,
+				B6FDF22025B7D3D200EA5152 /* EquipmentViewController.m */,
+			);
+			path = "装饰器模式";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -433,17 +461,21 @@
 				B63B24D925B1904900F1C2C0 /* DesignPattern.m in Sources */,
 				B63B24DD25B1919100F1C2C0 /* StrategyViewController.m in Sources */,
 				B63B24F725B6BB4E00F1C2C0 /* Sword.m in Sources */,
+				B6FDF21D25B7D35500EA5152 /* EquipmentOffHand.m in Sources */,
 				B622A7D925B02BCD002E0DB7 /* AppDelegate.m in Sources */,
 				B63B250325B6BCD000F1C2C0 /* Charge.m in Sources */,
 				B63B24FF25B6BC4400F1C2C0 /* Spear.m in Sources */,
 				B6FDF20825B6BFC400EA5152 /* Warrior.m in Sources */,
 				B63B251025B6BEBD00F1C2C0 /* Smite.m in Sources */,
+				B6FDF22125B7D3D200EA5152 /* EquipmentViewController.m in Sources */,
 				B622A7EA25B02BD0002E0DB7 /* main.m in Sources */,
 				B63B24EE25B6AE0E00F1C2C0 /* Skill.m in Sources */,
+				B6FDF21925B7D26200EA5152 /* EquipmentArmor.m in Sources */,
 				B622A80425B04244002E0DB7 /* NoFly.m in Sources */,
 				B63B250C25B6BE6E00F1C2C0 /* FireBall.m in Sources */,
 				B622A7FF25B03CEE002E0DB7 /* CanFly.m in Sources */,
 				B622A7DC25B02BCD002E0DB7 /* SceneDelegate.m in Sources */,
+				B6FDF21525B7CEC900EA5152 /* EquipmentDecorator.m in Sources */,
 				B622A80C25B042EC002E0DB7 /* Squeak.m in Sources */,
 				B63B24E825B6AA7200F1C2C0 /* Weapon.m in Sources */,
 				B622A82125B0446D002E0DB7 /* DuckC.m in Sources */,
