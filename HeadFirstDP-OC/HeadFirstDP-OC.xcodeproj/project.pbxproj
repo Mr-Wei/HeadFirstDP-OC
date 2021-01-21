@@ -46,11 +46,10 @@
 		B6FDF22B25B80A4900EA5152 /* WeaponShop.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF22A25B80A4900EA5152 /* WeaponShop.m */; };
 		B6FDF22F25B80CD800EA5152 /* WeaponRepairShop.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF22E25B80CD800EA5152 /* WeaponRepairShop.m */; };
 		B6FDF23325B80D2B00EA5152 /* WeaponFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF23225B80D2B00EA5152 /* WeaponFactory.m */; };
-		B6FDF24325B94E5300EA5152 /* Master.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF24225B94E5300EA5152 /* Master.m */; };
-		B6FDF25325B9673500EA5152 /* JuniorMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF25225B9673500EA5152 /* JuniorMaster.m */; };
-		B6FDF25725B9678300EA5152 /* SeniorMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF25625B9678300EA5152 /* SeniorMaster.m */; };
 		B6FDF25C25B9737200EA5152 /* SkillFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF25B25B9737200EA5152 /* SkillFactory.m */; };
 		B6FDF26125B973FD00EA5152 /* WarriorSkillFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF26025B973FD00EA5152 /* WarriorSkillFactory.m */; };
+		B6FDF26A25B97DB900EA5152 /* AbstractSkillFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF26925B97DB900EA5152 /* AbstractSkillFactory.m */; };
+		B6FDF26F25B97E2E00EA5152 /* JuniorAbstractSkillFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF26E25B97E2E00EA5152 /* JuniorAbstractSkillFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -134,17 +133,15 @@
 		B6FDF22E25B80CD800EA5152 /* WeaponRepairShop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeaponRepairShop.m; sourceTree = "<group>"; };
 		B6FDF23125B80D2B00EA5152 /* WeaponFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeaponFactory.h; sourceTree = "<group>"; };
 		B6FDF23225B80D2B00EA5152 /* WeaponFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeaponFactory.m; sourceTree = "<group>"; };
-		B6FDF24125B94E5300EA5152 /* Master.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Master.h; sourceTree = "<group>"; };
-		B6FDF24225B94E5300EA5152 /* Master.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Master.m; sourceTree = "<group>"; };
 		B6FDF24F25B95DC700EA5152 /* Career.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Career.h; sourceTree = "<group>"; };
-		B6FDF25125B9673500EA5152 /* JuniorMaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuniorMaster.h; sourceTree = "<group>"; };
-		B6FDF25225B9673500EA5152 /* JuniorMaster.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuniorMaster.m; sourceTree = "<group>"; };
-		B6FDF25525B9678300EA5152 /* SeniorMaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeniorMaster.h; sourceTree = "<group>"; };
-		B6FDF25625B9678300EA5152 /* SeniorMaster.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeniorMaster.m; sourceTree = "<group>"; };
 		B6FDF25A25B9737200EA5152 /* SkillFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkillFactory.h; sourceTree = "<group>"; };
 		B6FDF25B25B9737200EA5152 /* SkillFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkillFactory.m; sourceTree = "<group>"; };
 		B6FDF25F25B973FD00EA5152 /* WarriorSkillFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarriorSkillFactory.h; sourceTree = "<group>"; };
 		B6FDF26025B973FD00EA5152 /* WarriorSkillFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarriorSkillFactory.m; sourceTree = "<group>"; };
+		B6FDF26825B97DB900EA5152 /* AbstractSkillFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractSkillFactory.h; sourceTree = "<group>"; };
+		B6FDF26925B97DB900EA5152 /* AbstractSkillFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractSkillFactory.m; sourceTree = "<group>"; };
+		B6FDF26D25B97E2E00EA5152 /* JuniorAbstractSkillFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuniorAbstractSkillFactory.h; sourceTree = "<group>"; };
+		B6FDF26E25B97E2E00EA5152 /* JuniorAbstractSkillFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuniorAbstractSkillFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -370,9 +367,9 @@
 		B6FDF22325B8064E00EA5152 /* 工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
+				B6FDF23F25B921C900EA5152 /* 简单工厂 */,
 				B6FDF25925B9730B00EA5152 /* 工厂模式 */,
 				B6FDF24025B922FD00EA5152 /* 抽象工厂 */,
-				B6FDF23F25B921C900EA5152 /* 简单工厂 */,
 				B6FDF22425B8068000EA5152 /* FactoryViewController.h */,
 				B6FDF22525B8068000EA5152 /* FactoryViewController.m */,
 			);
@@ -395,12 +392,10 @@
 		B6FDF24025B922FD00EA5152 /* 抽象工厂 */ = {
 			isa = PBXGroup;
 			children = (
-				B6FDF24125B94E5300EA5152 /* Master.h */,
-				B6FDF24225B94E5300EA5152 /* Master.m */,
-				B6FDF25125B9673500EA5152 /* JuniorMaster.h */,
-				B6FDF25225B9673500EA5152 /* JuniorMaster.m */,
-				B6FDF25525B9678300EA5152 /* SeniorMaster.h */,
-				B6FDF25625B9678300EA5152 /* SeniorMaster.m */,
+				B6FDF26825B97DB900EA5152 /* AbstractSkillFactory.h */,
+				B6FDF26925B97DB900EA5152 /* AbstractSkillFactory.m */,
+				B6FDF26D25B97E2E00EA5152 /* JuniorAbstractSkillFactory.h */,
+				B6FDF26E25B97E2E00EA5152 /* JuniorAbstractSkillFactory.m */,
 			);
 			path = "抽象工厂";
 			sourceTree = "<group>";
@@ -535,16 +530,15 @@
 				B6FDF21025B6C01400EA5152 /* Sorcerer.m in Sources */,
 				B6FDF22F25B80CD800EA5152 /* WeaponRepairShop.m in Sources */,
 				B63B250825B6BD9800F1C2C0 /* Wand.m in Sources */,
+				B6FDF26A25B97DB900EA5152 /* AbstractSkillFactory.m in Sources */,
 				B63B24E325B6A89900F1C2C0 /* Role.m in Sources */,
 				B622A81D25B04455002E0DB7 /* DuckB.m in Sources */,
-				B6FDF24325B94E5300EA5152 /* Master.m in Sources */,
 				B6FDF20C25B6BFDC00EA5152 /* Knight.m in Sources */,
 				B63B24D925B1904900F1C2C0 /* DesignPattern.m in Sources */,
 				B6FDF22625B8068000EA5152 /* FactoryViewController.m in Sources */,
 				B63B24DD25B1919100F1C2C0 /* StrategyViewController.m in Sources */,
 				B63B24F725B6BB4E00F1C2C0 /* Sword.m in Sources */,
 				B6FDF21D25B7D35500EA5152 /* EquipmentOffHand.m in Sources */,
-				B6FDF25725B9678300EA5152 /* SeniorMaster.m in Sources */,
 				B622A7D925B02BCD002E0DB7 /* AppDelegate.m in Sources */,
 				B63B250325B6BCD000F1C2C0 /* Charge.m in Sources */,
 				B63B24FF25B6BC4400F1C2C0 /* Spear.m in Sources */,
@@ -556,8 +550,8 @@
 				B6FDF23325B80D2B00EA5152 /* WeaponFactory.m in Sources */,
 				B622A7EA25B02BD0002E0DB7 /* main.m in Sources */,
 				B63B24EE25B6AE0E00F1C2C0 /* Skill.m in Sources */,
-				B6FDF25325B9673500EA5152 /* JuniorMaster.m in Sources */,
 				B6FDF21925B7D26200EA5152 /* EquipmentArmor.m in Sources */,
+				B6FDF26F25B97E2E00EA5152 /* JuniorAbstractSkillFactory.m in Sources */,
 				B6FDF25C25B9737200EA5152 /* SkillFactory.m in Sources */,
 				B622A80425B04244002E0DB7 /* NoFly.m in Sources */,
 				B63B250C25B6BE6E00F1C2C0 /* FireBall.m in Sources */,
