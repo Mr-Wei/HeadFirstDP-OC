@@ -8,5 +8,18 @@
 #import "Master.h"
 
 @implementation Master
+- (void)trainSkillForCareer:(Career)career{
+    Skill *skill = [self skillForCareer:career];
+    [skill cast];
+    
+    
+}
+
+
+
+
+- (nonnull Skill *)skillForCareer:(Career)career {
+    AbstractMethodNotImplemented();
+}
 
 @end
