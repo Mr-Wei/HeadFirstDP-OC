@@ -17,24 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UITableView *tableView = [[UITableView alloc]init];
-    tableView.delegate = self;
-    tableView.dataSource = self;
-    [self.view addSubview:tableView];
-    [tableView makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(@0);
-    }];
-    
-    DesignPattern *dp1 = [[DesignPattern alloc]init];
-    dp1.name = @"策略模式";
-    dp1.controller = @"StrategyViewController";
-    
-    NSMutableArray *arr = [[NSMutableArray alloc]init];
-    [arr addObject:dp1];
-    self.datas = arr;
-    
-    
-    
+//    UITableView *tableView = [[UITableView alloc]init];
+//    tableView.delegate = self;
+//    tableView.dataSource = self;
+//    [self.view addSubview:tableView];
+//    [tableView makeConstraints:^(MASConstraintMaker *make) {
+//        make.edges.equalTo(@0);
+//    }];
+//
+//    DesignPattern *dp1 = [[DesignPattern alloc]init];
+//    dp1.name = @"策略模式";
+//    dp1.controller = @"StrategyViewController";
+//
+//    NSMutableArray *arr = [[NSMutableArray alloc]init];
+//    [arr addObject:dp1];
+//    self.datas = arr;
+
     // Do any additional setup after loading the view.
 }
 

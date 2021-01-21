@@ -46,6 +46,7 @@
 		B6FDF22B25B80A4900EA5152 /* WeaponShop.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF22A25B80A4900EA5152 /* WeaponShop.m */; };
 		B6FDF22F25B80CD800EA5152 /* WeaponRepairShop.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF22E25B80CD800EA5152 /* WeaponRepairShop.m */; };
 		B6FDF23325B80D2B00EA5152 /* WeaponFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF23225B80D2B00EA5152 /* WeaponFactory.m */; };
+		B6FDF24325B94E5300EA5152 /* Master.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDF24225B94E5300EA5152 /* Master.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +130,8 @@
 		B6FDF22E25B80CD800EA5152 /* WeaponRepairShop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeaponRepairShop.m; sourceTree = "<group>"; };
 		B6FDF23125B80D2B00EA5152 /* WeaponFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeaponFactory.h; sourceTree = "<group>"; };
 		B6FDF23225B80D2B00EA5152 /* WeaponFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeaponFactory.m; sourceTree = "<group>"; };
+		B6FDF24125B94E5300EA5152 /* Master.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Master.h; sourceTree = "<group>"; };
+		B6FDF24225B94E5300EA5152 /* Master.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Master.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,8 +356,17 @@
 		B6FDF22325B8064E00EA5152 /* 工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
+				B6FDF24025B922FD00EA5152 /* 抽象工厂 */,
+				B6FDF23F25B921C900EA5152 /* 简单工厂 */,
 				B6FDF22425B8068000EA5152 /* FactoryViewController.h */,
 				B6FDF22525B8068000EA5152 /* FactoryViewController.m */,
+			);
+			path = "工厂模式";
+			sourceTree = "<group>";
+		};
+		B6FDF23F25B921C900EA5152 /* 简单工厂 */ = {
+			isa = PBXGroup;
+			children = (
 				B6FDF22925B80A4900EA5152 /* WeaponShop.h */,
 				B6FDF22A25B80A4900EA5152 /* WeaponShop.m */,
 				B6FDF22D25B80CD800EA5152 /* WeaponRepairShop.h */,
@@ -362,7 +374,16 @@
 				B6FDF23125B80D2B00EA5152 /* WeaponFactory.h */,
 				B6FDF23225B80D2B00EA5152 /* WeaponFactory.m */,
 			);
-			path = "工厂模式";
+			path = "简单工厂";
+			sourceTree = "<group>";
+		};
+		B6FDF24025B922FD00EA5152 /* 抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				B6FDF24125B94E5300EA5152 /* Master.h */,
+				B6FDF24225B94E5300EA5152 /* Master.m */,
+			);
+			path = "抽象工厂";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,6 +507,7 @@
 				B63B250825B6BD9800F1C2C0 /* Wand.m in Sources */,
 				B63B24E325B6A89900F1C2C0 /* Role.m in Sources */,
 				B622A81D25B04455002E0DB7 /* DuckB.m in Sources */,
+				B6FDF24325B94E5300EA5152 /* Master.m in Sources */,
 				B6FDF20C25B6BFDC00EA5152 /* Knight.m in Sources */,
 				B63B24D925B1904900F1C2C0 /* DesignPattern.m in Sources */,
 				B6FDF22625B8068000EA5152 /* FactoryViewController.m in Sources */,
